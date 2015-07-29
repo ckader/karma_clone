@@ -433,26 +433,32 @@ div {
   border: 1px solid Chocolate;
 }
 
+.content{
+  padding: 0 0.93rem;
+  margin: 0 auto;
+  min-width: 37.5rem;
+}
+
 .navigation-bar{
+  background-color: #fff;
   position: fixed;
   width: 100%;
-  background-color: #fff;
+  border-bottom: 1px solid #DDD;
+  z-index: 9999;
+}
+
+.navigation-bar .links {
+  float: right;
+  color: #838994;
+  font-size: 1.04rem;
+  margin-top: 1.7rem;
 }
 
 .navigation-bar > .content {
-  height: 4rem;
-}
-
-.logo{
-  position: relative;
-  left: 12rem;
-  background-image: url("../images/logo.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 2rem;
-  height: 3rem;
+  height: 4.375rem;
 }
 
 .navitation-bar .logo{
-  height: 5rem;
+  height: 4.375rem;
 }
+

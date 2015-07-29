@@ -447,18 +447,13 @@ div {
   z-index: 9999;
 }
 
-.navigation-bar .links {
-  float: right;
-  color: #838994;
-  font-size: 1.04rem;
-  margin-top: 1.7rem;
-}
-
 .navigation-bar > .content {
   height: 4.375rem;
 }
 
-.navitation-bar .logo{
+.navigation-bar .logo{
   height: 4.375rem;
 }
+
+
 

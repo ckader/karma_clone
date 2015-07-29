@@ -425,3 +425,34 @@ td,
 th {
   padding: 0;
 }
+
+body {
+  background-color: LightGray;
+}
+div {
+  border: 1px solid Chocolate;
+}
+
+.navigation-bar{
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+
+.navigation-bar > .content {
+  height: 4rem;
+}
+
+.logo{
+  position: relative;
+  left: 12rem;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 2rem;
+  height: 3rem;
+}
+
+.navitation-bar .logo{
+  height: 5rem;
+}
